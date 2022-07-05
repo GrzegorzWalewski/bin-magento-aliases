@@ -1,0 +1,16 @@
+#Magento
+alias bm="bin/magento"
+#Magento flush cache
+alias cf="bin/magento c:fl"
+#Magento clear cache
+alias cc="bin/magento c:c"
+#Remove "generated" dir
+alias rg="rm -rf generated/"
+#Magento indexer reindex
+alias re="bin/magento i:rei"
+#Magento setup upgrade
+alias up="bin/magento s:up"
+#Magento compile code
+alias dc="bin/magento s:di:compile"
+#I don't know what I'm doing( runs all commands)
+alias idkwid="up; re; cf; cc; rg; dc"
